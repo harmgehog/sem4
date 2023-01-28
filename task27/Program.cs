@@ -21,7 +21,7 @@ void SumOfNums(int number)
 int GetNum(string text)
 {
     Console.Write(text);
-    int number = int.Parse(Console.ReadLine());
+    int number = int.Parse(Console.ReadLine()!);
     return (number);
 }
 

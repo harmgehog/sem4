@@ -12,11 +12,11 @@
 void GetArray(string text)
 {
     Console.Write(text);
-    int[] arr = new int[int.Parse(Console.ReadLine())];
+    int[] arr = new int[int.Parse(Console.ReadLine()!)];
     Console.Write("Верхняя граница диапазона чисел: ");
-    int upper = int.Parse(Console.ReadLine());
+    int upper = int.Parse(Console.ReadLine()!);
     Console.Write("Нижняя граница диапазона чисел: ");
-    int lower = int.Parse(Console.ReadLine());
+    int lower = int.Parse(Console.ReadLine()!);
 
     Random rnd = new Random();
     for (int i = 0; i < arr.Length; ++i)
